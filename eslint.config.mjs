@@ -20,6 +20,8 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
     rules: {
+      "@typescript-eslint/no-empty-object-type": "off",
+
       // 👇 Turn "no-explicit-any" into a warning instead of an error
       "@typescript-eslint/no-explicit-any": "off",
 
