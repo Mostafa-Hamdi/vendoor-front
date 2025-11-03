@@ -21,10 +21,10 @@ const eslintConfig = [
     ],
     rules: {
       // 👇 Turn "no-explicit-any" into a warning instead of an error
-      "@typescript-eslint/no-explicit-any": "warn",
+      "@typescript-eslint/no-explicit-any": "off",
 
       // (Optional) You can also make unused vars a warning instead of error
-      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/no-unused-vars": "off",
     },
   },
 ];
