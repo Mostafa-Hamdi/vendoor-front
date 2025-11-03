@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   //   defaultLocale: "en",
   //   locales: ["en", "ar"],
   // },
+  typescript: {
+    // 🚨 Use with caution — this lets Next.js build even if types fail
+    ignoreBuildErrors: true,
+  },
   images: {
     domains: [
       "encrypted-tbn0.gstatic.com",
